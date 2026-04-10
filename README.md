@@ -31,3 +31,8 @@ By utilizing the auto-ranging engine to dynamically shift internal reference val
 
 ## Part 5: Known limitations
 While this simulation accurately models ideal physical equations and baseline Gaussian noise, a real hardware implementation would introduce additional complexities. Physical builds experience ADC noise, operational amplifier offset voltages, temperature drift altering the reference resistor tolerances over time, and parasitic probe resistance.
+
+## Part 6: Mobile App Interface
+To visualize the real-time data transmitted via the `protocol.py` JSON packets, I designed a app interface. The app reads the millisecond timestamps and hardware state to display the current range and a live-updating capacitance/resistance gauge.
+
+<img width="300" height="525" alt="Image" src="https://github.com/user-attachments/assets/9f97234e-fbeb-46dd-ba6e-111bbf809d81" />
